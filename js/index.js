@@ -4,7 +4,7 @@
 // let a = +prompt("");
 // if (a > 0) {
 //     a++;
-// } 
+// }
 // console.log (a);
 
 // 2chi masala
@@ -19,6 +19,26 @@
 // }
 // console.log (a);
 
+// 3 - masala
+
+// alert('2ta  SON KIRITING');
+// let a = +prompt ("a")
+// let b = +prompt ("b")
+// if (a == b) {
+//     a = 10;
+//     b = 10;
+// } else {
+//     a=c;
+//     b=c;
+// if (a > 0) {
+//     a++;
+// }
+// else {
+// a-=2;
+// }
+// }
+// console.log(a);
+// console.log(b);
 
 // 4chi masala
 
@@ -47,153 +67,182 @@
 // if (b > 0) {
 //     k++;
 // }
-// else {
-// p--;
+// else if(b<0) {
+// p++;
 // }
 // let a = +prompt("a");
 // if (a > 0) {
 //     k++;
 // }
-// else {
-//     p--;
+// else if(a<0)   {
+//     p++;
 //     }
 // let c = +prompt("c");
 // if (c > 0) {
 //     k++;
 // }
-// else {
-//     p--;
+// else if(c<0)  {
+//     p++;
 // }
 // console.log (k);
 // console.log (p);
 
 // 6chi masal
 
-// let p =0
+// let max;
 // alert('2ta  SON KIRITING');
 // let a = +prompt ("a")
 // let b = +prompt ("b")
-// if (a >! b) {
-//     p++;
-// } 
-
-
-
+// if (a > b) {
+//    max=a;
+// }
+// else{
+// max=b;
+// }
+// console.log(max);
 
 // 8 - masala
-// function kattasiKichigi( g, b) {
+// alert('2ta  SON KIRITING');
+// let a = +prompt ("a")
+// let b = +prompt ("b")
+// let max;
+// let min;
 //     if (a > b) {
-//         console.log(g);
-//         console.log(b);
-//     } else {
-//         console.log(g);
-//         console.log(a);
-//     }
+//         max=a;
+//         min=b;
+// } else {
+//         max=b;
+//         min=a;
 // }
-// kattasiKichigi(16, 8); // Misol uchun: 16 va 8
+// console.log(max);
+// console.log(min);
 
-// 9 - masala 
+// 9 - masala
 
-// let A = 5;
-// let B = 10;
-// if (A > B) {
-//     let temp = A;
-//     A = B;
-//     B = temp;
+// alert('2ta  SON KIRITING');
+// let a = +prompt ("a")
+// let b = +prompt ("b")
+// let c;
+// if (a > b) {
+//     c=a;
+//     a=b;
+//     b=c
 // }
-// console.log("A qiymati: " + A);
-console.log("B qiymati: " + B);
+// console.log(a);
+// console.log(b);
 
 // 10 - masala
 
-// let A = 10;
-// let B = 5;
-// if (A !== B) {
-//   let sum = A + B;
-//   A = sum;
-//   B = sum;
+// alert('2ta  SON KIRITING');
+// let a = +prompt ("a")
+// let b = +prompt ("b")
+// if (a == b) {
+//     a = 0;
+//     b = 0;
 // } else {
-//   A = 0;
-//   B = 0;
+//     let c= a+b;
+//     a=c;
+//     b=c;
 // }
-// console.log(A qiymati: ${A});
-// console.log(B qiymati: ${B});
+// console.log(a);
+// console.log(b);
 
 // 11 - masala
 
-// let A = 5;
-// let B = 3;
-// if (A !== B) {
-//     if (A > B) {
-//         console.log("A ning qiymati katta");
-//     } else {
-//         console.log("B ning qiymati katta");
-//     }
+// alert('2ta  SON KIRITING');
+// let a = +prompt ("a")
+// let b = +prompt ("b")
+// if (a== b) {
+//     a = 0;
+//     b = 0;
 // } else {
-//     A = 0;
-//     B = 0;
-//     console.log("A va B tengson.");
+//     let max;
+//     if (a>b) {
+//         max=a;
+//     }
+//     else{
+//     max=b
+//     }
+//     a=max
+//     b=max
 // }
-// console.log("A = " + A);
-// console.log("B = " + B);
+// console.log(a);
+// console.log(b);
 
 // 12 - masala
-
-// function findSmallestNumber(num1, num2, num3) {
-//     let smallest = num1;
-//     if (num2 < smallest) {
-//       smallest = num2;
-//     }
-//     if (num3 < smallest) {
-//       smallest = num3;
-//     }
-//     return smallest;
-//   }
-//   let num1 = 10;
-//   let num2 = 5;
-//   let num3 = 8;
-//   let smallestNumber = findSmallestNumber(num1, num2, num3);
-//   console.log("The smallest number is: " + smallestNumber); 
+// alert("3ta  SON KIRITING");
+// let a = +prompt("a");
+// let b = +prompt("b");
+// let c = +prompt("c");
+// let min;
+// if (a < b) {
+//   min = a;
+// } else {
+//   min = b;
+// }
+// if (min > c) {
+//   min = c;
+// }
+// console.log(min);
 
 // 13 - masala
+// alert("3ta  SON KIRITING");
+// let a = +prompt("a");
+// let b = +prompt("b");
+// let c = +prompt("c");
+// let min;
+// if (a > b) {
+//   min = a;
+// } else {
+//   min = b;
+// }
+// if (min > c) {
+//   min = c;
+// }
+// console.log(min);
 
-// function findMiddleNumber(num1, num2, num3) {
-
-    // Sort the numbers in ascending order
-
-    // let sortedNumbers = [num1, num2, num3].sort((a, b) => a - b); 
-  
-    // The middle number is now at index 1
-
-//     return sortedNumbers[1]; 
-//   }
-//   let num1 = 10;
-//   let num2 = 5;
-//   let num3 = 8;
-//   let middleNumber = findMiddleNumber(num1, num2, num3);
-//   console.log("The middle number is: " + middleNumber);
-
-// 14 - masala
-
-// function findSmallestAndLargest(num1, num2, num3) {
-//     let smallest = Math.min(num1, num2, num3);
-//     let largest = Math.max(num1, num2, num3);
-//     console.log("The smallest number is: " + smallest);
-//     console.log("The largest number is: " + largest);
-//   }
-//   let num1 = 10;
-//   let num2 = 5;
-//   let num3 = 8;
-//   findSmallestAndLargest(num1, num2, num3);
 
 // 14 - masala
+// alert("3ta  SON KIRITING");
+// let a = +prompt("a");
+// let b = +prompt("b");
+// let c = +prompt("c");
+// let min;
+// let max;
+// if (a < b) {
+//   min = a;
+//   max = b;
+// } else {
+//   min = b;
+//   max =a;
+// }
+// if (min > c) {
+//   min = c;
+//   max = c;
+// }
+// console.log(min);
+// console.log(max);
 
-// function findTwoLargestNumbers(num1, num2, num3) {
-//     let sortedNumbers = [num1, num2, num3].sort((a, b) => a - b); 
-//     console.log("The two largest numbers are: " + sortedNumbers[1] + " and " + sortedNumbers[2]);
-//   }
-//   let num1 = 10;
-//   let num2 = 5;
-//   let num3 = 8;
-//   findTwoLargestNumbers(num1, num2, num3);
-
+// 15 - masala
+// let max;
+// let min;
+// alert('3ta  SON KIRITING');
+// let a = +prompt ("a")
+// let b = +prompt ("b")
+// let c = +prompt ("c")
+// if (a > b) {
+//    max=a;
+//    min=b
+// }
+// else{
+// max=b;
+// min=a
+// }
+// if (min > c) {
+// min=c
+// }
+// else {
+// min=c;
+// }
+// console.log(max);
+// console.log(min);
